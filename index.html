@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Crystal Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <header>
+        <h2 id ="name"> The Crystal Game</h2>
+   </header>
+   <div class="paragraph">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below.By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number,you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you untill you click on it</p>
+        <p>Each time when the game starts, the game will change the values of each crystal</p>
+    </div>
+    <div class="start">
+        <div class="total"></div>
+    	
+        <div class="result">
+        	Wins:<div id="wins"></div>
+        	Losses:<div id="losses"></div>
+        </div>
+    </div>
+    <div class="crystals">
+        <img src="https://www.colourbox.com/preview/4545062-red-crystal.jpg" class="click" id="red">
+        <img src="https://pbs.twimg.com/profile_images/3570193294/5ed18569e4657d13d252a1c825cbb69c.jpeg" class="click" id="blue">
+        <img src="http://www.fengshui-supply.com/store/images/D/yellow_wishfulfilling_crystal.jpg" class="click" id="yellow">
+        <img src="http://www.estaromi.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/g/r/green_crystal..jpg" class="click" id="green">
+   </div>
+   <div class="score">
+        <h5>Your total score is:</h5>
+   </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+body{
+	background-color:blue;
+	background-position:center;
+} 	
+header{
+	width:auto;
+	height: 70px;
+	background-color:orange;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#name{
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+
+}
+.paragraph{
+	width: 350px;
+	height:370px;
+	background-color:lightblue;
+	margin-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+p{
+	color: green;
+	padding: 5px;
+}
+.start{
+	height:105px;
+    width:300px;
+    display: inline-block;
+}
+.total{
+	width:150px;
+	height: 90px;
+	background-color: gray;
+	margin-right: 10px;
+	font-size: 30px;
+	color:#8A358F;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+.result{
+	width:100px;
+	height: 100px;
+	background-color: #49E6D6;
+	margin-left:160%;
+	margin-top:-90px;
+}
+.click{
+	width:80px;
+	height:80px;
+}
+.score{
+	width: 180px;
+	height:30px;
+	background-color:black;
+	margin-bottom: 10px;
+}
+h5{
+	color: white;
+	padding-top: 7px;
+}
+.addition{
+	width:180px;
+	height:90px;
+	background-color: #12B5A2;
+	font-size: 30px;
+	color: white;
+}
+
+#crytals{
+	margin-left:50%;
+	
+}
